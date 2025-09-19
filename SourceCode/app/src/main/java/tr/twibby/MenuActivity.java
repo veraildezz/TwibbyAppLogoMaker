@@ -760,7 +760,7 @@ public class MenuActivity extends AppCompatActivity {
 		String fileName = "twibbyapp.png";
 		int counter = 1;
 		java.io.File pictureFile;
-		String baseFileName = "myimage";
+		String baseFileName = "twibby";
 		String extension = ".png";
 		
 		do {
@@ -833,4 +833,4 @@ public class MenuActivity extends AppCompatActivity {
 	public int getDisplayHeightPixels() {
 		return getResources().getDisplayMetrics().heightPixels;
 	}
-}
+}
