@@ -1,0 +1,734 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="?colorOnSecondaryContainer"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="horizontal">
+		<TextView
+			android:id="@+id/textbaslik"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Twibby Apps"
+			android:textSize="18sp"
+			android:textColor="#212121"
+			android:layout_weight="1" />
+		<com.google.android.material.button.MaterialButton
+			android:id="@+id/materialbutton2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="Resmi İndir"
+			android:textSize="12sp"
+			android:textColor="?colorOnSurface"
+			app:cornerRadius="8dp" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linearresim"
+		android:layout_width="match_parent"
+		android:layout_height="400dp"
+		android:background="?colorOnSurface"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textlogobaslik"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Yazı"
+			android:textSize="30sp"
+			android:textStyle="bold" />
+		<LinearLayout
+			android:id="@+id/linear7"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical"
+			android:layout_weight="1">
+			<LinearLayout
+				android:id="@+id/linear29"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="vertical"
+				android:layout_weight="1">
+				<LinearLayout
+					android:id="@+id/linear56"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal">
+					<ImageView
+						android:id="@+id/imageview1"
+						android:layout_width="150dp"
+						android:layout_height="match_parent"
+						android:src="@drawable/default_image"
+						android:scaleType="fitCenter"
+						android:layout_weight="1" />
+					<TextView
+						android:id="@+id/textlogotekharf"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="T"
+						android:textSize="200sp"
+						android:textStyle="bold"
+						android:layout_weight="1" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear6"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="3dp"
+					android:background="#000000"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textlogoaltyazi"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Alt Yazı"
+						android:textSize="20sp"
+						android:textStyle="bold" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<ScrollView
+		android:id="@+id/vscroll1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<LinearLayout
+			android:id="@+id/linear5"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="?colorOnSecondary"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear9"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textview5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="3dp"
+					android:text="Resmi Düzenle"
+					android:textSize="18sp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear8"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textview4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Main Logo"
+					android:textSize="14sp"
+					android:layout_weight="1" />
+				<com.google.android.material.button.MaterialButton
+					android:id="@+id/materialbutton1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="Resim Seç"
+					android:textSize="12sp"
+					android:textColor="#FFFFFF"
+					app:backgroundTint="?colorPrimary"
+					app:cornerRadius="8dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear10"
+				android:layout_width="match_parent"
+				android:layout_height="120dp"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/linear27"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview6"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Textureler"
+						android:textSize="14sp"
+						android:layout_weight="1" />
+				</LinearLayout>
+				<HorizontalScrollView
+					android:id="@+id/hscroll1"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent">
+					<LinearLayout
+						android:id="@+id/linear11"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:padding="8dp"
+						android:background="?colorOnSurfaceVariant"
+						android:orientation="horizontal">
+						<LinearLayout
+							android:id="@+id/linear12"
+							android:layout_width="60dp"
+							android:layout_height="match_parent"
+							android:padding="3dp"
+							android:orientation="vertical">
+							<ImageView
+								android:id="@+id/imageview3"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:src="@drawable/yancizgi"
+								android:scaleType="fitCenter" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear15"
+							android:layout_width="10dp"
+							android:layout_height="match_parent"
+							android:padding="8dp"
+							android:orientation="vertical" />
+						<LinearLayout
+							android:id="@+id/linear14"
+							android:layout_width="60dp"
+							android:layout_height="match_parent"
+							android:padding="3dp"
+							android:orientation="vertical">
+							<ImageView
+								android:id="@+id/imageview4"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:src="@drawable/tuval"
+								android:scaleType="fitCenter" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear16"
+							android:layout_width="10dp"
+							android:layout_height="match_parent"
+							android:padding="8dp"
+							android:orientation="vertical" />
+						<LinearLayout
+							android:id="@+id/linear17"
+							android:layout_width="60dp"
+							android:layout_height="match_parent"
+							android:padding="3dp"
+							android:orientation="vertical">
+							<ImageView
+								android:id="@+id/imageview5"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:src="@drawable/orumcekagi"
+								android:scaleType="fitCenter" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear18"
+							android:layout_width="10dp"
+							android:layout_height="match_parent"
+							android:padding="8dp"
+							android:orientation="vertical" />
+						<LinearLayout
+							android:id="@+id/linear19"
+							android:layout_width="60dp"
+							android:layout_height="match_parent"
+							android:padding="3dp"
+							android:orientation="vertical">
+							<ImageView
+								android:id="@+id/imageview6"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:src="@drawable/ikilikare"
+								android:scaleType="fitCenter" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear20"
+							android:layout_width="10dp"
+							android:layout_height="match_parent"
+							android:padding="8dp"
+							android:orientation="vertical" />
+						<LinearLayout
+							android:id="@+id/linear21"
+							android:layout_width="60dp"
+							android:layout_height="match_parent"
+							android:padding="3dp"
+							android:orientation="vertical">
+							<ImageView
+								android:id="@+id/imageview7"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:src="@drawable/satranckare"
+								android:scaleType="fitCenter" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear22"
+							android:layout_width="10dp"
+							android:layout_height="match_parent"
+							android:padding="8dp"
+							android:orientation="vertical" />
+						<LinearLayout
+							android:id="@+id/linear23"
+							android:layout_width="60dp"
+							android:layout_height="match_parent"
+							android:padding="3dp"
+							android:orientation="vertical">
+							<ImageView
+								android:id="@+id/imageview8"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:src="@drawable/uccizgikare"
+								android:scaleType="fitCenter" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear24"
+							android:layout_width="10dp"
+							android:layout_height="match_parent"
+							android:padding="8dp"
+							android:orientation="vertical" />
+						<LinearLayout
+							android:id="@+id/linear25"
+							android:layout_width="60dp"
+							android:layout_height="match_parent"
+							android:padding="3dp"
+							android:orientation="vertical">
+							<ImageView
+								android:id="@+id/imageview9"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:src="@drawable/kaya"
+								android:scaleType="fitCenter" />
+						</LinearLayout>
+					</LinearLayout>
+				</HorizontalScrollView>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear26"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textview7"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Logo Horizontal"
+					android:textSize="14sp"
+					android:layout_weight="1" />
+				<Switch
+					android:id="@+id/switch3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:textSize="12sp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear28"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview8"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="X Yönü "
+					android:textSize="14sp" />
+				<SeekBar
+					android:id="@+id/seekbar1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp" />
+				<TextView
+					android:id="@+id/textview10"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Y (+)"
+					android:textSize="14sp" />
+				<SeekBar
+					android:id="@+id/seekbar3"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear30"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textview12"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Üst Yazı"
+					android:textSize="14sp"
+					android:layout_weight="1" />
+				<Switch
+					android:id="@+id/switch1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:textSize="12sp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear31"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/linear43"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal">
+					<com.google.android.material.textfield.TextInputLayout
+						android:id="@+id/textinputlayout8"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+						<EditText
+							android:id="@+id/edittext3"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:textSize="14sp"
+							android:textColor="?colorOnSurface"
+							android:hint="Renk Kodu"
+							android:textColorHint="?colorOnSurface" />
+					</com.google.android.material.textfield.TextInputLayout>
+					<ImageView
+						android:id="@+id/imageview15"
+						android:layout_width="30dp"
+						android:layout_height="30dp"
+						android:src="@drawable/kaydet"
+						android:scaleType="fitCenter" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear45"
+					android:layout_width="match_parent"
+					android:layout_height="15dp"
+					android:padding="8dp"
+					android:orientation="horizontal" />
+				<LinearLayout
+					android:id="@+id/linear33"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal">
+					<com.google.android.material.textfield.TextInputLayout
+						android:id="@+id/textinputlayout3"
+						android:layout_width="50dp"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+						<EditText
+							android:id="@+id/edittext1"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Twibby"
+							android:textSize="14sp"
+							android:hint="Edit Text"
+							android:singleLine="true" />
+					</com.google.android.material.textfield.TextInputLayout>
+					<ImageView
+						android:id="@+id/imageview12"
+						android:layout_width="30dp"
+						android:layout_height="30dp"
+						android:src="@drawable/kaydet"
+						android:scaleType="fitCenter" />
+				</LinearLayout>
+				<TextView
+					android:id="@+id/textview13"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="X Yönü"
+					android:textSize="14sp" />
+				<SeekBar
+					android:id="@+id/seekbar5"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp" />
+				<TextView
+					android:id="@+id/textview15"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Y Yönü"
+					android:textSize="14sp" />
+				<SeekBar
+					android:id="@+id/seekbar7"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear34"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textview16"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Text Logo"
+					android:textSize="14sp"
+					android:layout_weight="1" />
+				<Switch
+					android:id="@+id/switch4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:textSize="12sp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear38"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/linear40"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+					<LinearLayout
+						android:id="@+id/linear35"
+						android:layout_width="50dp"
+						android:layout_height="wrap_content"
+						android:gravity="center_horizontal|center_vertical"
+						android:orientation="horizontal"
+						android:layout_weight="1">
+						<com.google.android.material.textfield.TextInputLayout
+							android:id="@+id/textinputlayout5"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+							<EditText
+								android:id="@+id/edittext2"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="T"
+								android:textSize="14sp"
+								android:textColor="?colorOnSurface"
+								android:hint="Text"
+								android:textColorHint="?colorOnSurface" />
+						</com.google.android.material.textfield.TextInputLayout>
+						<ImageView
+							android:id="@+id/imageview13"
+							android:layout_width="30dp"
+							android:layout_height="30dp"
+							android:src="@drawable/kaydet"
+							android:scaleType="fitCenter" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear46"
+					android:layout_width="match_parent"
+					android:layout_height="15dp"
+					android:padding="8dp"
+					android:orientation="horizontal" />
+				<LinearLayout
+					android:id="@+id/linear47"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal">
+					<com.google.android.material.textfield.TextInputLayout
+						android:id="@+id/textinputlayout9"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+						<com.google.android.material.textfield.TextInputLayout
+							android:id="@+id/textinputlayout10"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+							<EditText
+								android:id="@+id/edittext4"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:textSize="14sp"
+								android:textColor="?colorOnSurface"
+								android:hint="Renk Kodu"
+								android:textColorHint="?colorOnSurface" />
+						</com.google.android.material.textfield.TextInputLayout>
+					</com.google.android.material.textfield.TextInputLayout>
+					<ImageView
+						android:id="@+id/imageview16"
+						android:layout_width="30dp"
+						android:layout_height="30dp"
+						android:src="@drawable/kaydet"
+						android:scaleType="fitCenter" />
+				</LinearLayout>
+				<TextView
+					android:id="@+id/textview19"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="X Yönü"
+					android:textSize="14sp"
+					android:textColor="?colorOnSurface" />
+				<SeekBar
+					android:id="@+id/seekbar8"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp" />
+				<TextView
+					android:id="@+id/textview20"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Y Yönü"
+					android:textSize="14sp"
+					android:textColor="?colorOnSurface" />
+				<SeekBar
+					android:id="@+id/seekbar11"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear48"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textview21"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Alt Yazı"
+					android:textSize="14sp"
+					android:textColor="?colorOnSurface"
+					android:layout_weight="1" />
+				<Switch
+					android:id="@+id/switch5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:textSize="12sp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear49"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/linear50"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal">
+					<com.google.android.material.textfield.TextInputLayout
+						android:id="@+id/textinputlayout12"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+						<EditText
+							android:id="@+id/edittext7"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:textSize="14sp"
+							android:textColor="?colorOnSurface"
+							android:hint="Text"
+							android:textColorHint="?colorOnSurface" />
+					</com.google.android.material.textfield.TextInputLayout>
+					<ImageView
+						android:id="@+id/imageview17"
+						android:layout_width="30dp"
+						android:layout_height="30dp"
+						android:src="@drawable/kaydet"
+						android:scaleType="fitCenter" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear53"
+					android:layout_width="match_parent"
+					android:layout_height="15dp"
+					android:padding="8dp"
+					android:orientation="horizontal" />
+				<TextView
+					android:id="@+id/textview22"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="X Yönü"
+					android:textSize="14sp"
+					android:textColor="?colorOnSurface" />
+				<SeekBar
+					android:id="@+id/seekbar12"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp" />
+				<TextView
+					android:id="@+id/textview23"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Y Yönü"
+					android:textSize="14sp"
+					android:textColor="?colorOnSurface" />
+				<SeekBar
+					android:id="@+id/seekbar13"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear55"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textview24"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="@string/app_name"
+					android:textSize="14sp"
+					android:textStyle="bold" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
