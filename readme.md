@@ -1,5 +1,7 @@
 # TwibbyLogoMaker
 
+[For English Readme](readmen.md)
+
 TwibbyLogoMaker, Android için geliştirilmiş bir **logo tasarım ve düzenleme uygulaması**dır.  
 Hazır arka plan desenleri ve çizim araçları ile hızlıca özgün logolar oluşturabilirsiniz.
 
